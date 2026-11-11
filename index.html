@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>毛豆奶奶 · 蔡秀云</title>
+<style>
+  :root{
+    --ink:#2b2620; --paper:#f5efe3; --paper2:#efe6d4; --accent:#8c2f23; --muted:#7a6f5f; --line:#d8ccb4;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{
+    font-family:"Noto Serif SC","Songti SC","SimSun",serif;
+    background:var(--paper); color:var(--ink); line-height:2;
+  }
+  .wrap{max-width:720px;margin:0 auto;padding:0 24px}
+
+  header{
+    background:linear-gradient(180deg,#1c1914 0%, #26211a 100%);
+    color:#e9dfc9; text-align:center; padding:110px 24px 90px;
+    position:relative; overflow:hidden;
+  }
+  header::after{ /* 红十字：缝在黑布书皮上的那一针 */
+    content:""; position:absolute; right:38px; top:38px;
+    width:44px; height:44px;
+    background:
+      linear-gradient(var(--accent),var(--accent)) center/8px 100% no-repeat,
+      linear-gradient(var(--accent),var(--accent)) center/100% 8px no-repeat;
+    opacity:.85;
+    box-shadow:0 0 0 3px #1c1914, 0 0 0 4px rgba(140,47,35,.5);
+    border-radius:4px;
+  }
+  header .kicker{letter-spacing:.5em; font-size:13px; color:#b3a487; margin-bottom:26px}
+  header h1{font-size:44px; font-weight:600; letter-spacing:.12em}
+  header .sub{margin-top:18px; font-size:15px; color:#b3a487}
+  header .quote{margin-top:48px; font-size:19px; color:#e9dfc9}
+  header .quote small{display:block; margin-top:10px; font-size:13px; color:#8f836c}
+
+  section{padding:64px 0; border-bottom:1px solid var(--line)}
+  section:last-of-type{border-bottom:none}
+  h2{font-size:22px; letter-spacing:.2em; color:var(--accent); margin-bottom:30px; font-weight:600}
+  h2::before{content:"— "; color:var(--line)}
+
+  p.body{margin-bottom:22px; font-size:17px}
+  .note{font-size:14px; color:var(--muted)}
+
+  .word{ /* 「暖干」这个词 */
+    display:inline-block; border-bottom:2px solid var(--accent);
+    padding:0 2px; font-weight:600;
+  }
+
+  blockquote{
+    background:var(--paper2); border-left:3px solid var(--accent);
+    padding:22px 26px; margin:30px 0; font-size:17px;
+  }
+  blockquote .who{display:block; margin-top:10px; font-size:13px; color:var(--muted)}
+
+  .timeline{list-style:none; margin-top:10px}
+  .timeline li{position:relative; padding:0 0 34px 34px; border-left:1px solid var(--line)}
+  .timeline li:last-child{border-left-color:transparent}
+  .timeline li::before{
+    content:""; position:absolute; left:-5px; top:10px; width:9px; height:9px;
+    border-radius:50%; background:var(--accent);
+  }
+  .timeline .t{font-size:13px; color:var(--muted); letter-spacing:.15em}
+  .timeline .d{font-size:17px; margin-top:4px}
+
+  figure{margin:34px 0}
+  figure img{width:100%; display:block; border-radius:3px; box-shadow:0 6px 24px rgba(43,38,32,.18)}
+  figcaption{font-size:13px; color:var(--muted); margin-top:12px; text-align:center; letter-spacing:.1em}
+
+  .gallery{display:grid; grid-template-columns:1fr 1fr; gap:18px}
+  @media(max-width:560px){.gallery{grid-template-columns:1fr}}
+
+  footer{
+    background:#1c1914; color:#8f836c; text-align:center;
+    padding:80px 24px; font-size:15px;
+  }
+  footer .bye{font-size:24px; color:#e9dfc9; letter-spacing:.3em; margin-bottom:30px}
+  footer small{display:block; margin-top:40px; font-size:12px}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="kicker">纪 念</div>
+  <h1>毛豆奶奶</h1>
+  <div class="sub">蔡秀云 · 我们家的奶奶</div>
+  <div class="quote">
+    「你要好好的，吃好喝好，身体第一，别受屈。」
+    <small>2011 年，高速路被雪封住的那个早晨，她说的。<br>十五年后最后一次见她，她说的还是这一句。</small>
+  </div>
+</header>
+
+<div class="wrap">
+
+<section>
+  <h2>奶奶不识字，她说的</h2>
+  <p class="body">奶奶不识字——这是她说的。</p>
+  <p class="body">但奶奶也会认识字，只是我发现的。小时候调皮捣蛋，去河里边玩儿，湿透了。奶奶会在炕上把我衣服<span class="word">暖</span>干了。注意这个用词：不是烘干，是暖干。</p>
+</section>
+
+<section>
+  <h2>她会宇宙语言</h2>
+  <p class="body">为什么这么说呢？因为她开始信佛了。我跟她去乔山地吃过饭，那也是信佛的人。</p>
+  <p class="body">奶奶后来"叛教"了——我这么说她也不生气。她去信耶稣了。我记得我还在上小学，每次回家，她都要让我给她读她的书，从佛经变成了圣经。读完，她说："知道了，认识这个字了。"</p>
+  <p class="body">我从小就比较奇怪，我问她："真的会了吗？"她说："会了。"我说："那我考考你，这是啥。"她用一些中国人听不懂、外国人不明白的奇怪符号标注了。她确实知道那个字的意思。</p>
+  <blockquote>
+    我验证过了：那既不是中国字，也不是日本字，也不是韩国字，也不是英语。反正她就知道。
+    她说："小冬，这个字不认识，你帮我解释一下。"
+    <span class="who">—— 她自己发明了一门只有她能读的语言，并对答如流</span>
+  </blockquote>
+  <p class="body">她的佛经和圣经都包着书皮，自己缝的。黑色圣经缝个黑布皮儿，上面缝了个红色的十字架。重点是她都知道，都对答如流。</p>
+</section>
+
+<section>
+  <h2>一针一线，直到上高中</h2>
+  <p class="body">奶奶每年给我做一身棉袄棉裤，一针一线亲手缝的。直到上高中。</p>
+  <p class="body">奶奶说："不要受屈。"我上次见她，说："人们说，糊涂了。"跟她最熟的人都说她是装的。为啥？因为我回来，她就清醒了。</p>
+  <p class="body">众人说："这个人认识吗？"我认识。她能给我拍黄瓜，还能给我炒菜花，但是她对别人都是……</p>
+</section>
+
+<section>
+  <h2>电磁炉坏了</h2>
+  <p class="body">她说电磁炉坏了，你修下。我说好的好的，我修修修。我问是咋坏了？你上次不是用它拍了黄瓜、炒了花菜吗？它不是就坏了。</p>
+  <p class="body">我后来理解了：她需要的是<span class="word">明火</span>。她让我说她需要明火，但那个电磁炉就没有明火，所以她就哄。我开始给她解释，解释两遍之后我放弃了。我说："嗯，那确实，就是坏了。回头换，行吧。"</p>
+  <p class="body note">她认的是火，是人守着的那点热。</p>
+</section>
+
+<section>
+  <h2>两篇日记</h2>
+  <figure>
+    <img src="images/2.jpg" alt="2011年2月10日的日志：雪一直下，是忍不住凝咽的泪花">
+    <figcaption>2011-02-10 00:18 ·《雪一直下，是忍不住凝咽的泪花》</figcaption>
+  </figure>
+  <p class="body">雪断断续续下了一天，高速路被封，我等外出务工人员滞留在清徐路上……早上，奶奶来家里坐。我说："奶奶，我走了。"奶奶一时间抽泣起来，看着老泪纵横的她，我也哽咽了。我强忍着心酸打破了沉寂，"很快我就回来了"，奶奶争辩着："这又是到年下了啊。"我无力地点点头，"好好的，没事了，奶奶说好了啊，接你来北京玩啊。"奶奶不情愿地点点头，"你要好好的，吃好喝好，身体第一，别受屈"奶奶说着，妈妈附和着。"嗯，知道"我转身离去，她们哭泣萦绕在我耳旁。</p>
+  <figure>
+    <img src="images/3.jpg" alt="2026年11月10日的笔记：奶奶不识字，她说的">
+    <figcaption>2026-11-10 ·《奶奶不识字，她说的》</figcaption>
+  </figure>
+  <p class="body">十五年后，同一句话，两篇日记，对上了。</p>
+</section>
+
+<section>
+  <h2>再见</h2>
+  <figure>
+    <img src="images/1.jpg" alt="上坟那天：爸爸和小爸去烧纸，我跟着去了">
+    <figcaption>爸爸和小爸去给你烧纸，我跟着去了</figcaption>
+  </figure>
+  <p class="body">哦，奶奶，都糊涂了。还能给我拍黄瓜、炒花菜。</p>
+  <p class="body">你在生前不信烧纸这个，但这不重要。没事。</p>
+  <blockquote>
+    对一个糊涂的人来说，"你"这个字是最后忘的——<br>也可能是，压根没打算忘的。
+  </blockquote>
+</section>
+
+</div>
+
+<footer>
+  <div class="bye">再 见</div>
+  <div>奶奶蔡秀云 · 小冬认识你，这一条从头到尾没糊涂过。</div>
+  <small>毛豆奶奶纪念页 · 2026</small>
+</footer>
+
+</body>
+</html>
